@@ -29,5 +29,5 @@
 
 1. Clonez le repository sur votre machine locale :
 
-   git clone https://github.com/redkh03/Rendu_Exercice_Back/edit/master
+   git clone https://github.com/redkh03/Rendu_Exercice_Back/tree/master
 
