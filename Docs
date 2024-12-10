@@ -1,1 +1,21 @@
+@startuml
+actor User
+participant API
+participant Database
+
+User -> API : POST /api/candidates/
+API -> Database : Save candidate details
+Database --> API : Confirmation
+API --> User : Response with candidate ID
+
+User -> API : GET /api/candidates/
+API -> Database : Fetch all candidates
+Database --> API : List of candidates
+API --> User : JSON response
+
+User -> API : GET /api/recruiters/
+API -> Database : Fetch all recruiters
+Database --> API : List of recruiters
+API --> User : JSON response
+@enduml
 
