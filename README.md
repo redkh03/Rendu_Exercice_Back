@@ -14,7 +14,15 @@
   - Django 5.1.x
   - Django Rest Framework 3.x
   - SQLite (Base de données par défaut, mais peut être configuré pour utiliser PostgreSQL ou MySQL)
-  
+  ##Swagger Documentation
+Swagger. Avec Django, utilisez :
+pip install drf-yasg
+Ajoutez la configuration dans le fichier urls.py
+
+Installez drf-yasg :
+bash
+Copier le code
+pip install drf-yasg
 - 
 - **Versionnement** :
   - Git pour le contrôle de version.
