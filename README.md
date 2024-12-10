@@ -24,7 +24,9 @@
 - **Python 3.12 ou supérieur** installé sur votre machine.
 - **Pip** pour installer les dépendances Python.
 - **Git** pour gérer le code source.
-  
+ ## Installation des dépendances
+```bash
+pip install -r requirements.txt
 ## Installation
 
 1. Clonez le repository sur votre machine locale :
