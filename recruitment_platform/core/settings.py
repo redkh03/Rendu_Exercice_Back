@@ -57,5 +57,10 @@ INSTALLED_APPS = [
 DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 ROOT_URLCONF = 'recruitment_platform.urls'
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'core.exceptions.custom_exception_handler',
+}
+
+
 
 

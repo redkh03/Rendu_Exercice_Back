@@ -9,6 +9,8 @@ router = DefaultRouter()
 router.register(r'candidates', views.CandidateViewSet, basename='candidate')
 router.register(r'recruiters', views.RecruiterViewSet, basename='recruiter')
 router.register(r'jobposts', views.JobPostViewSet, basename='jobpost')
+router.register(r'trainess', views.TraineeViewSet, basename= 'trainee')
+router.register(r'admin/trainees', views.AdminTraineeViewSet, basename= 'admin-trainee')
 
 # Ajoutez les URL générées par le routeur
 urlpatterns = [
